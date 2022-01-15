@@ -1,0 +1,32 @@
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: $z-heading;
+
+  &__inner {
+    padding-top: 3.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__logo {
+    max-width: 146px;
+  }
+  &__title {
+    font-family: $ff-heading;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.77;
+    letter-spacing: -0.18px;
+  }
+}
+
+@media (min-width: 60rem) {
+  .header {
+    &__inner {
+      padding-top: 2.5rem;
+    }
+  }
+}

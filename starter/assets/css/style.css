@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+:root {
+  --fs-900: 2.5rem;
+  --fs-800: 2rem;
+  --fs-700: 1rem;
+  --fs-600: 1rem;
+  --fs-button: 1.125rem;
+}
+
+@media (min-width: 48rem) {
+  :root {
+    --fs-900: 4rem;
+    --fs-700: 1.125rem;
+  }
+}
+
+@media (min-width: 60rem) {
+  :root {
+    --fs-900: 5.5rem;
+    --fs-800: 2.5rem;
+    --fs-700: 1.25rem;
+  }
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
